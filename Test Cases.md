@@ -1,10 +1,8 @@
 ## Test Cases - Farmit
----
 # Test Case 1: Verify default state on homepage - UI/UX elements 
 
 - **Priority:** [High]  
 - **Preconditions:** User is on the homepage.
----
 
 ## Steps  
 
@@ -21,7 +19,6 @@
 
 - **Priority:** [High]  
 - **Preconditions:** User is on the homepage.
----
 
 ## Steps  
 
@@ -38,7 +35,6 @@
 - **Priority:** [High]  
 - **Preconditions:** Go to the website https://fitgarden-qa.vercel.app/
 
----
 
 ## Steps  
 
@@ -57,7 +53,6 @@
 - **Priority:** [High]  
 - **Preconditions:** Go to the website https://fitgarden-qa.vercel.app/
 
----
 
 ## Steps  
 
@@ -77,7 +72,6 @@
 
 - **Priority:** [High]  
 - **Preconditions:** Default language is SRB.
----
 
 ## Steps  
 
@@ -94,7 +88,6 @@
 
 - **Priority:** [High]  
 - **Preconditions:** The user is logged in. User is on the homepage.
----
 
 ## Steps  
 
@@ -110,7 +103,6 @@
 
 - **Priority:** [High]  
 - **Preconditions:** User is on the page containing social media buttons.
----
 
 ## Steps  
 
@@ -126,7 +118,6 @@
 
 - **Priority:** [High]  
 - **Preconditions:** User is on the page containing the subscription section.
----
 
 ## Steps  
 
@@ -141,7 +132,6 @@
 
 - **Priority:** [High]  
 - **Preconditions:** User is on the homepage.
----
 
 ## Steps  
 
@@ -153,14 +143,13 @@
 | 4 | Hover over profile icon. | / | Appearance or color changes according to design |
 | 3 | Hover over cart icon. | / | Appearance or color changes according to design |
 
-#
+---
 
 # Test Cases - Benefiti.rs
 # Test Case 1: Verify default UI/UX elements on homepage
 
 - **Priority:** [High]  
 - **Preconditions:** User is on the homepage.
----
 
 ## Steps  
 
