@@ -152,8 +152,24 @@
 | 4 | Hover over profile icon. | / | Appearance or color changes according to design |
 | 3 | Hover over cart icon. | / | Appearance or color changes according to design |
 
+#
 
+# Test Cases - Benefiti.rs
+# Test Case 1: Verify default UI/UX elements on homepage
 
+- **Priority:** [High]  
+- **Preconditions:** User is on the homepage.
+---
+
+## Steps  
+
+| Step | Test Steps | Test Data | Expected Results |
+|------|------------|-----------|------------------|
+| 1 | Verify header elements: Logo, Navigation Menu, Language Switch, Profile button, Cart icon | / | All elements are visible and aligned according to design |
+| 2 | Verify body sections: Text, Images, CTA buttons, Animations | / | All elements display correctly without overlap or distortion |
+| 3 | Scroll down and verify footer elements: Logo, Links, Social Media buttons | / | Footer elements are visible and correctly aligned |
+| 4 | Hover over profile icon. | / | Appearance or color changes according to design |
+| 3 | Hover over cart icon. | / | Appearance or color changes according to design |
 
 
 
