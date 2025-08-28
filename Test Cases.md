@@ -33,8 +33,7 @@
 
 
 - **Priority:** [High]  
-- **Preconditions:** Go to the website https://fitgarden-qa.vercel.app/
-
+- **Preconditions:** Go to the website 
 
 ## Steps  
 
