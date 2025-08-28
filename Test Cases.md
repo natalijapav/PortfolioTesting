@@ -141,25 +141,73 @@
 | 2 | Verify body sections: Text, Images, CTA buttons, Animations | / | All elements display correctly without overlap or distortion |
 | 3 | Scroll down and verify footer elements: Logo, Links, Social Media buttons | / | Footer elements are visible and correctly aligned |
 | 4 | Hover over profile icon. | / | Appearance or color changes according to design |
-| 3 | Hover over cart icon. | / | Appearance or color changes according to design |
+| 5 | Hover over cart icon. | / | Appearance or color changes according to design |
 
 ---
 
 # Test Cases - Benefiti.rs
-# Test Case 1: Verify default UI/UX elements on homepage
+# Test Case 1: Verify that the Name and Surname fields does not accept input longer than 30 characters
 
 - **Priority:** [High]  
-- **Preconditions:** User is on the homepage.
+- **Preconditions:** The user is logged in with an account.
 
 ## Steps  
 
 | Step | Test Steps | Test Data | Expected Results |
 |------|------------|-----------|------------------|
-| 1 | Verify header elements: Logo, Navigation Menu, Language Switch, Profile button, Cart icon | / | All elements are visible and aligned according to design |
-| 2 | Verify body sections: Text, Images, CTA buttons, Animations | / | All elements display correctly without overlap or distortion |
-| 3 | Scroll down and verify footer elements: Logo, Links, Social Media buttons | / | Footer elements are visible and correctly aligned |
-| 4 | Hover over profile icon. | / | Appearance or color changes according to design |
-| 3 | Hover over cart icon. | / | Appearance or color changes according to design |
+| 1 | Click on the Employee section from the sidebar | / | Employee section is displayed |
+| 2 | Click on the "+ Add Employee" button | / | User is redirected to “Add Employee” page |
+| 3 | Fill in the ‘’Name’’ field | ‘’testtesttesttesttesttesttesttest’’ | Added name is displayed |
+| 4 | Fill in the ‘’Surname’’ field | ‘’testtesttesttesttesttesttesttest’’ | / |
+| 5 | Click on ‘’Add’’ button | / | ValidationError is shown: "firstName" must be shorter than/or equal to 30 characters |
+
+
+# Test Case 2: Verify Name and Surname fields does not accept empty input
+
+- **Priority:** [High]  
+- **Preconditions:** The user is logged in with an account.
+
+## Steps  
+
+| Step | Test Steps | Test Data | Expected Results |
+|------|------------|-----------|------------------|
+| 1 | Click on the Employee section from the sidebar | / | Employee section is displayed |
+| 2 | Click on the "+ Add Employee" button | / | User is redirected to “Add Employee” page |
+| 3 | Leave the Name field empty | / | / |
+| 4 | Leave the Surname field empty | / | / |
+| 5 | Click on "Add" button | / | *is required is displayed above the field Name, Surname |
+
+
+# Test Case 3: Verify the email field accepts a properly formatted email address
+
+- **Priority:** [High]  
+- **Preconditions:** The user is logged in with an account.
+
+## Steps  
+
+| Step | Test Steps | Test Data | Expected Results |
+|------|------------|-----------|------------------|
+| 1 | Click on the Employee section from the sidebar | / | Employee section is displayed |
+| 2 | Click on the "+ Add Employee" button | / | User is redirected to “Add Employee” page |
+| 3 | Enter valid email address into Email field | test@gmail.com | Email is displayed and accepted |
+| 4 | Fill in all other required fields with valid data | Test Test ... | All data is displayed correctly |
+| 5 | Click on "Add" button | / | ‘’Employee successfully added!’’ Message is shown, Redirected to ‘’Employees’’ page |
+
+
+# Test Case 4: Verify "Contact" list only accepts numeric input
+
+- **Priority:** [High]  
+- **Preconditions:** The user is logged in with an account.
+
+## Steps  
+
+| Step | Test Steps | Test Data | Expected Results |
+|------|------------|-----------|------------------|
+| 1 | Click on the Employee section from the sidebar | / | Employee section is displayed |
+| 2 | Click on the "+ Add Employee" button | / | User is redirected to “Add Employee” page |
+| 3 | Enter valid numeric phone number | +123456 | Number is displayed correctly |
+| 4 | Fill in all other required fields with valid data | Test Test ... | All data is displayed correctly |
+| 5 | Click on "Add" button | / | "Employee successfully added!" Message is shown |
 
 
 
