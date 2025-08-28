@@ -35,12 +35,6 @@ Welcome! This repository showcases my hands-on experience in **software testing*
 
 ---
 
-## 📬 Contact: [Email](mailto:natalijapavlovic7@gmail.com)
-
- 
-
----
-
 This portfolio demonstrates my **attention to detail**, **structured documentation skills**, and commitment to improving software quality.
 
 
