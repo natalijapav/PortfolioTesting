@@ -1,49 +1,46 @@
-# 🛒 
-This repository contains exercises from a QA course focused on testing and improving an e-commerce website. The work includes bug reports, test cases, and usability improvement suggestions.
+# QA Portfolio
+
+Welcome! This repository showcases my hands-on experience in **software testing**, including **manual test cases**, **bug reports**, and **UI/UX improvements** for e-commerce projects.
 
 ---
 
-## 📂 Project Structure
+## 🚀 Projects
+
+### **Farmit**
+- Tested homepage, buttons, forms, and language selection
+- Functional and UI/UX test cases
+- Example: Verified social media links, subscription forms, and navigation
+
+### **Benefiti**
+- User interactions, homepage elements, and feature verification
+- Form validation and functional testing
+- Example: Ensured FAQ section and buttons work correctly
+
+### **E-commerce Improvements**
+- Product listings, navigation arrows, subscription section, and category layout
+- Recommendations include **Current / Requested / Reason**
+- Focus on **readability, scannability, and visual hierarchy**
 
 ---
 
-## ✅ What Was Tested
-
-- 🛍 Product search and filtering  
-- ➕ Add to cart functionality  
-- 🔐 Login and registration flow   
-- 📱 Basic responsive layout checks  
-- 🔄 Browser behavior (Chrome)
 
 ---
 
-## 🧪 Testing Approach
-
-- Manual testing techniques  
-- Functional and negative testing  
-- Exploratory testing  
-- Bug documentation in clear, reproducible steps  
-- Test case design based on typical user flows
-
----
-
-## 🛠 Tools & Skills
-
-- Markdown for documentation  
-- Structured bug reporting  
-- Creating clear test cases  
-- Focus on user experience  
-- Understanding QA workflows
+## ✨ Skills Highlight
+- Manual testing (UI/UX, functional, regression)  
+- Writing structured test cases (table & Gherkin formats)  
+- Bug reporting with severity and reproducibility  
+- UI/UX evaluation and improvement recommendations  
+- Familiar with SQL, Postman, and mobile testing  
 
 ---
 
-## 📚 About
-
-This is part of my learning journey in software testing. The goal is to demonstrate my skills in identifying issues, writing test documentation, and thinking critically about product quality.
+## 📬 Contact: [natalijapavlovic7@gmail.com](mailto:natalijapavlovic7@gmail.com)
+ 
 
 ---
 
-👩‍💻 **Author**: Natalija Pavlovic Patic
+This portfolio demonstrates my **attention to detail**, **structured documentation skills**, and commitment to improving software quality.
 
 
 
