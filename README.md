@@ -1,5 +1,4 @@
-# 🛒 E-commerce Website Testing – QA Exercises
-
+# 🛒 
 This repository contains exercises from a QA course focused on testing and improving an e-commerce website. The work includes bug reports, test cases, and usability improvement suggestions.
 
 ---
@@ -32,7 +31,7 @@ This repository contains exercises from a QA course focused on testing and impro
 
 - Markdown for documentation  
 - Structured bug reporting  
-- Creating clear and actionable test cases  
+- Creating clear test cases  
 - Focus on user experience  
 - Understanding QA workflows
 
