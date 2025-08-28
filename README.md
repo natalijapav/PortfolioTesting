@@ -35,7 +35,7 @@ Welcome! This repository showcases my hands-on experience in **software testing*
 
 ---
 
-## 📬 Contact: 📬 Contact: [Email](mailto:natalijapavlovic7@gmail.com)
+## 📬 Contact: [Email](mailto:natalijapavlovic7@gmail.com)
 
  
 
