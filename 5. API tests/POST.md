@@ -29,3 +29,8 @@ I also verify that all submitted parameters are correctly saved and returned in 
   "userStatus": 0
 }
 
+```
+---
+## POST request
+![POST Request Screenshot](images/post_req.png)
+![POST Request Screenshot](images/post_req1.png)
