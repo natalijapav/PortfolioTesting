@@ -27,7 +27,6 @@ The purpose of this test is to confirm that the server:
 
 # 🟢 GET Negative Request Test
 
-This test verifies that the API correctly updates an existing user resource when a **GET** request is sent.
 
 ---
 
