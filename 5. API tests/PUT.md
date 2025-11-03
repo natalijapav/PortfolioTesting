@@ -5,7 +5,7 @@ This test verifies that the API correctly updates an existing user resource when
 ---
 
 ## 🔹 Endpoint
-`{{base_url}}/v2/pet/3`
+`{{base_url}}/Patrik`
 
 ---
 
@@ -18,3 +18,6 @@ The purpose of this test is to confirm that the server:
 
 ---
 
+---
+## POST request
+![POST Request Screenshot](images/get_req.png)
