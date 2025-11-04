@@ -40,4 +40,8 @@ The purpose of this test is to confirm that the server:
   "userStatus": 1
 }
 
+```
+---
+## PUT request
+![PUT Request Screenshot](images/get_req.png)
 
