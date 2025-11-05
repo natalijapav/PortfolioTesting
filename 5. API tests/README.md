@@ -30,7 +30,7 @@ I organized the project into two main folders — each representing a functional
 ### 🐞 Bug Summary Table
 
 | **Bug ID** | **Module** | **Endpoint** | **Description** | **Severity** | 
-|-------------|-------------|--------------|------------------|---------------|-------------|----------------------|
+|-------------|-------------|--------------|------------------|---------------|
 | **PetStoreApi 1** | Pet | `PUT /pet` | Pet status not updated after sending `"status": "sold"` – GET still returns `"available"`. | Medium | 
 
 
