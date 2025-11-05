@@ -78,27 +78,7 @@ This indicates that the update operation does not persist the new status value.
 Pet with ID `11111` exists and has status `"available"`.
 
 **Steps to Reproduce:**
-1. Send `PUT /pet` with the following body:
-   ```json
-   {
-     "id": 11111,
-     "category": {
-       "id": 0,
-       "name": "Duggeeeee"
-     },
-     "name": "Duggee",
-     "photoUrls": ["string"],
-     "tags": [
-       {
-         "id": 0,
-         "name": "Dagi"
-       }
-     ],
-     "status": "sold"
-   }
-
-   ```
-   ---
+1. Send `PUT /pet` with the given body above.
 
 2. Verify response → API returns **200 OK**.
 3. Send `GET /pet/11111` to check the updated status.
@@ -109,6 +89,10 @@ The `"status"` field in the response should display `"sold"`.
 **Actual Result:**  
 The `"status"` field remains `"available"` despite the successful update response.
 
+---
+## PUT request
+![PUT Request Screenshot](images/put22_req.png)
+![PUT Request Screenshot](images/put222_req.png)
 ---
 
 
