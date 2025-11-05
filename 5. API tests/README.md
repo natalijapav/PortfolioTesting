@@ -33,7 +33,7 @@ I organized the project into two main folders — each representing a functional
 |-------------|-------------|--------------|------------------|---------------|
 | **PetStoreApi 1** | Pet | `PUT /pet` | Pet status not updated after sending `"status": "sold"` – GET still returns `"available"`. | Medium | 
 
-
+Bug report described in PUT method in the PetStore/Pet folder.
 ---
 
 📋 **Notes:**
@@ -43,3 +43,24 @@ I organized the project into two main folders — each representing a functional
 
 ---
 
+---
+
+## 🎓 Lessons Learned 
+
+Working on this Petstore API project helped me strengthen both my **technical API testing skills** .
+
+- Learned to design and execute **end-to-end test scenarios** using Postman (Pet, User modules).  
+- Practiced creating **positive and negative test cases**, dynamic variable handling, and JavaScript assertions.  
+- Experienced real-world API behavior where some endpoints **don’t behave as documented** — and learned how to analyze, document, and report inconsistencies professionally.  
+- Improved understanding of **HTTP methods, response validation, and REST structure**.  
+- Learned to maintain clear documentation in **Markdown**, creating a portfolio that mirrors an actual QA workflow.
+
+This project reinforced the importance of **critical thinking, validation beyond “green tests,” and curiosity** — key qualities that define a good QA engineer.
+
+---
+
+✨ *Author:* **Natalija Pavlović Patić**  
+📍 *Location:* Novi Sad, Serbia  
+💡 *Role:* QA Engineer | Manual & API Testing Enthusiast  
+
+---
