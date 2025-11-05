@@ -1,36 +1,28 @@
-# 🧩 API Testing with Postman  
+# 📦 Swagger Petstore API Testing with Postman
 
-This folder contains my practical API testing work and exercises — created to demonstrate skills in designing, executing, and documenting API tests using **Postman** and **Swagger Petstore API**.  
-
----
-
-## 🔹 Overview  
-
-The goal of this project is to verify the correctness, stability, and reliability of RESTful API endpoints through both **positive** and **negative** test scenarios.  
-I’ve covered the main CRUD operations:  
-- **POST** – Create new user  
-- **GET** – Retrieve existing user by username  
-- **PUT** – Update user details  
-- **DELETE** – Remove user from the system  
-
-Each HTTP method has its own dedicated `.md` file with:  
-- Endpoint and description  
-- Request examples (with screenshots)  
-- Expected responses  
-- Postman test scripts  
+This project contains my practice collection for testing the **Swagger Petstore** REST API using **Postman**.  
+The goal is to demonstrate how I design and execute API tests, including positive and negative scenarios, chaining requests with variables, and writing basic Postman test scripts.
 
 ---
 
-## 🔹 Tools & Technologies  
+## 🔗 API Under Test
 
-| Tool | Purpose |
-|------|----------|
-| 🧪 Postman | API test design, execution, and scripting |
-| 📜 Swagger Petstore | Public API used for testing |
-| 📂 GitHub | Version control and documentation |
+- **Base URL:** `https://petstore.swagger.io/v2`
+- Official Swagger UI: (Swagger Petstore v2)
+
+The API exposes three main groups of resources:
+
+- **Pet** – managing pets in the store
+- **User** – managing users, login/logout, etc.
 
 ---
 
- 
+## 🧰 Tools & Stack
+
+- **Postman** – for sending requests and writing test scripts
+- **JavaScript (Postman tests)** – assertions and variable handling
+- **GitHub** – to store collection, environment and documentation
+
+---
 
 
