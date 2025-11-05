@@ -1,7 +1,7 @@
-# 📦 Swagger Petstore API Testing with Postman
+# 🧪 Swagger Petstore API Testing with Postman
 
-This project contains my practice collection for testing the **Swagger Petstore** REST API using **Postman**.  
-The goal is to demonstrate how I design and execute API tests, including positive and negative scenarios, chaining requests with variables, and writing basic Postman test scripts.
+This project showcases my **API testing practice** using the [Swagger Petstore](https://petstore.swagger.io) demo API.  
+The goal was to practice designing, executing, and validating **API requests and responses** in **Postman**, through realistic QA workflows and mini end-to-end scenarios.
 
 ---
 
@@ -10,7 +10,7 @@ The goal is to demonstrate how I design and execute API tests, including positiv
 - **Base URL:** `https://petstore.swagger.io/v2`
 - Official Swagger UI: (Swagger Petstore v2)
 
-The API exposes three main groups of resources:
+I organized the project into two main folders — each representing a functional area of the API I tested.
 
 - **Pet** – managing pets in the store
 - **User** – managing users, login/logout, etc.
