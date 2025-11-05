@@ -20,7 +20,8 @@ The purpose of this test is to confirm that the server:
 
 ---
 ## GET request
-![POST Request Screenshot](images/get_req.png)
+![GET Request Screenshot](images/get_req.png)
+![GET Request Screenshot](images/get1_req.png)
 
 
 
@@ -44,6 +45,5 @@ The purpose of this test is to confirm that the server:
 
 ---
 
----
-## GET request
-![POST Request Screenshot](images/get1_req.png)
+
+
