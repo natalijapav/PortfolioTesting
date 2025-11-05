@@ -41,5 +41,5 @@ The purpose of this test is to confirm that the server:
 ```
 ---
 ## PUT request
-![PUT Request Screenshot](images/put_req.png)
+![PUT Request Screenshot](images/put11_req.png)
 
