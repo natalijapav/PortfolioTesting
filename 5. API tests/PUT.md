@@ -5,7 +5,7 @@ In this test, I verify whether the API correctly updates an existing user resour
 ---
 
 ## 🔹 Endpoint  
-`{{base_url}}/user/{{username}}`  
+`{{base_url}}/user/Popi2`  
 
 ---
 
@@ -30,18 +30,16 @@ The purpose of this test is to confirm that the server:
 **Body (raw JSON):**  
 ```json
 {
-  "id": 6652,
-  "username": "PatrikStar",
-  "firstName": "Patrik-Updated",
-  "lastName": "Star",
-  "email": "patrik-updated@star.com",
-  "password": "nov2025",
-  "phone": "987654321",
+  "username": "Popi2Update",
+  "firstName": "Sokol2",
+  "email": "popi2@test.com",
+  "password": "passwordPopi",
+  "phone": "0000000000",
   "userStatus": 1
 }
 
 ```
 ---
 ## PUT request
-![PUT Request Screenshot](images/get_req.png)
+![PUT Request Screenshot](images/put_req.png)
 
