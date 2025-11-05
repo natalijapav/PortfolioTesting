@@ -25,4 +25,21 @@ I organized the project into two main folders — each representing a functional
 
 ---
 
+---
+
+### 🐞 Bug Summary Table
+
+| **Bug ID** | **Module** | **Endpoint** | **Description** | **Severity** | **Status** | **Reproducibility** |
+|-------------|-------------|--------------|------------------|---------------|-------------|----------------------|
+| **PetStoreApi 1** | Pet | `PUT /pet` | Pet status not updated after sending `"status": "sold"` – GET still returns `"available"`. 
+
+
+---
+
+📋 **Notes:**
+- Bugs were observed on the public Swagger Petstore demo API (`https://petstore.swagger.io/v2`).
+- These findings are kept as **QA practice examples**, not production defects.
+- Each issue was verified through Postman requests and validated with `GET` follow-up checks.
+
+---
 
